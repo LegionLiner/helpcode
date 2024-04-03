@@ -1,0 +1,49 @@
+name: CI
+on: [push]
+jobs:
+  install:
+    runs-on: windows-latest
+    
+    steps:
+      - run: echo 'Установка зависимостей'
+      - name: Setup Node
+        uses: actions/setup-node@v1
+        with:
+          node-version: '17.x'
+      - uses: actions/checkout@v3
+
+      - name: Install Dependencies
+        run: npm install
+  test:
+    runs-on: windows-latest
+    
+    steps:
+      - run: echo 'Тестирование'
+      - name: Setup Node
+        uses: actions/setup-node@v1
+        with:
+          node-version: '17.x'
+      - uses: actions/checkout@v3
+
+      - name: Install Dependencies
+        run: npm install
+
+      - name: Build Production
+        run: npm run test
+  build:
+    runs-on: windows-latest
+    
+    steps:
+      - run: echo 'Сборка Production'
+      - name: Setup Node
+        uses: actions/setup-node@v1
+        with:
+          node-version: '17.x'
+      - uses: actions/checkout@v3
+
+      - name: Install Dependencies
+        run: npm install
+
+      - name: Build Production
+        run: npm run build
+
