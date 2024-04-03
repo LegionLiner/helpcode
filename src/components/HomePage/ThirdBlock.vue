@@ -1,7 +1,7 @@
 <template>
     <div class="thirdBlock">
         <div class="left">
-            <p class="about"><img src="../../assets/Line.svg" >О нас</p>
+            <p class="about"><img src="../../assets/line.svg" >О нас</p>
             <p class="textAbout">Мы хотим предоставлять образовательные услуги, которым не учат в школах, и развить будущую карьеру студентов.</p>
             <img src="../../assets/image1.png"  class="imageLeft">
         </div>
