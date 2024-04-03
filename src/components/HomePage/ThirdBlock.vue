@@ -3,11 +3,11 @@
         <div class="left">
             <p class="about"><img src="../../assets/line.svg" >О нас</p>
             <p class="textAbout">Мы хотим предоставлять образовательные услуги, которым не учат в школах, и развить будущую карьеру студентов.</p>
-            <img src="../../assets/image1.png"  class="imageLeft">
+            <img src="../../assets/Image1.png"  class="imageLeft">
         </div>
         <div class="right">
             <div class="imageRight">
-                <img src="../../assets/image2.png" >
+                <img src="../../assets/Image2.png" >
             </div>
             <div class="textRight">
                 <div class="fText">
