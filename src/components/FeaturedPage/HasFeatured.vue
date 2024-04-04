@@ -7,7 +7,7 @@
         <div class="courses">
             <div class="cours" v-for="course in coursesFeatured">
                 <div class="description">
-                    <img src="../../assets/imageCours.png">
+                    <img src="../../assets/ImageCours.png">
                     <div class="descriptionText">
                         <p class="title" @click="$router.push(`/course/${course.id}`)">{{ course.title }}</p>
                         <p class="titleHero">Прогресс курса</p>
